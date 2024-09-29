@@ -17,8 +17,9 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 const corsOptions = {
-    origin: ["https://jobportal-yt-pi.vercel.app", "http://localhost:5173"], // Allows specific origins
-    credentials: true,
+    origin: "*", // Allows all origins
+    // origin: ["https://jobportal-yt-pi.vercel.app", "http://localhost:5173"], // Allows specific origins
+    // credentials: true,
 };
 
 app.use(cors(corsOptions));
