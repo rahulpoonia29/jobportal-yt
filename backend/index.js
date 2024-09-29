@@ -17,9 +17,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 const corsOptions = {
-    // origin: "*", // Allows all origins
-    origin: ["https://jobportal-yt-pi.vercel.app", "http://localhost:5173"], // Allows specific origins
-    credentials: true,
+    origin: "*", // Allows all origins
 };
 
 app.use(cors(corsOptions));
@@ -36,7 +34,6 @@ app.listen(PORT, () => {
     connectDB();
     console.log(`Server running at port ${PORT}`);
 });
-
 
 app.get("/", (req, res) => {
     res.send("Backend is working");
