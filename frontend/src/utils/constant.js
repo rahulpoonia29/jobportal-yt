@@ -1,8 +1,8 @@
 export const USER_API_END_POINT =
-    "https://jobportal-yt-bdbs.vercel.app/api/v1/user";
+    "jobportal-yt-9z7i.onrender.com/api/v1/user";
 export const JOB_API_END_POINT =
-    "https://jobportal-yt-bdbs.vercel.app/api/v1/job";
+    "jobportal-yt-9z7i.onrender.com/api/v1/job";
 export const APPLICATION_API_END_POINT =
-    "https://jobportal-yt-bdbs.vercel.app/api/v1/application";
+    "jobportal-yt-9z7i.onrender.com/api/v1/application";
 export const COMPANY_API_END_POINT =
-    "https://jobportal-yt-bdbs.vercel.app/api/v1/company";
+    "jobportal-yt-9z7i.onrender.com/api/v1/company";
